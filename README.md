@@ -1,7 +1,11 @@
 # Modern-Ecommerce-Platforms
-Design and Develop Modern Ecommerce Plafform
+Design and Develop Modern Ecommerce Plafform </br>
+Wanmukhlis Waemamu
 
-Project Overview
+## *Abstract*
+A website selling tea bags in tins is a platform that caters to tea enthusiasts and food lovers who seek to experience the high-quality tea brewing experience in the comfort of their homes or wherever they desire. With carefully selected premium products and comprehensive tea details, we are ready to introduce you to the world of exquisite tea enclosed in tins that are both convenient and stylish.
+
+We are committed to offering you the most rewarding tea exploration with swift delivery and customer satisfaction. We are dedicated to bringing you the joy and confidence in selecting the perfect tea for you in every tin we offer. Start your journey with us today and discover the newfound delight of tea in tins like never before!
 
 - Our website is about selling tea leaves. Whether it is black tea or green tea, we will sell it in a jar, 1 jar can brew 40 glasses. And has a workflow or business model. 
 
