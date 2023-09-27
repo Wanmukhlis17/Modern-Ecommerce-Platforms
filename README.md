@@ -49,6 +49,22 @@ My project builds upon an existing theme as the foundation for Kusmi Tea's E-Com
 
 ## *Visual Overview*
 
+### Website overview
+**HomePage**
+
+![homepage one](img/homepage.png)
+
+
+**Shoppage**
+
+![shop page](img/shop.png)
+
+
+**Cart**
+
+![cart page](img/cart.png)
+
+### BPMN Diagram
 
 
 My model will have three parts: 
