@@ -64,7 +64,12 @@ My project builds upon an existing theme as the foundation for Kusmi Tea's E-Com
 
 ![cart page](img/cart.png)
 
+
+
+
 ### BPMN Diagram
+
+![BPMN page](img/BPMN.png)
 
 
 My model will have three parts: 
