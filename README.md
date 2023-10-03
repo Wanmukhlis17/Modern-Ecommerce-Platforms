@@ -101,3 +101,66 @@ Represents the group of customers interacting with the platform.
   - **Identify payment method:** customer choose the payment method. In my wetsite have 2 ways are Cash on delivery and Bank transfer.
 
       <img src="img/identify.png" alt="Payment Med" width="683.6" height="236.4">
+
+  - **Payment process:** The customer make a payment on what they choose (Cash on delivery or Bank transfer). For Bank transfer, customer have to sent the payment proof to admin by using contact form to sent photo or customer can sent via messenger, Line, E-mai.
+
+      <img src="img/payment.png" alt="Payment Med" width="594" height="170.8">
+
+  - **Review order process:** In this process, customer can chect that the order is success or not. If not success, the order will cancel. If order is success, customer just wait for order to shipping.
+
+   - **Recieve the  product process:** Recieve the product from shipping company.
+
+  - **End Event
+
+#### Admin pool
+
+![admin pool](img/admin.png)
+
+- **Add product:** This task represents the process of adding a new product to your e-commerce store's catalog. It includes entering product details, assigning categories, and setting pricing.
+
+  ![add product](img/addproduct.png)
+
+  - **Publish Product:** This task involves making the approved product visible to customers on the website. It ensures that the product is included in relevant search results and categories.
+  - **Update Product Information:** This task allows admins to modify existing product details, such as descriptions, prices, or images. It's used for maintaining accurate product information.
+  - **Remove Product:** When a product is discontinued or permanently out of stock, this task is used to remove the product from the website. It ensures customers can no longer purchase the item.
+
+    ![product management](img/product.png)
+
+  - **Inventory Management:** This task involves monitoring and managing product inventory levels. Admins may use this task to adjust stock levels, track product availability, and reorder items when necessary.
+   
+    ![inventory management](img/inventory.png)
+
+  - **Check order:** Admin will check the order list to see if there are any new orders or not. If there is a new order, the admin will go to the next task.
+
+    ![order admin](img/neworder.png)
+
+  - **Check slip and confirm order process:** This process admin will check the slip of payment and confirm order.
+
+    ![confirm order](img/confirmorder.png)
+
+  - **Correct gataway:** when admin check correctness about payment. If correct, It will go to Check Stock process. If not correct, It will cancel the order.
+  - **Check Stock process:** admin will check stock. If have product enough, It will go to next process (Prepare order for shipping process). If out of stock, the order will cancel.
+  - **Prepare order for shipping process:** this task is to prepare product for shipping or pack items properly for delivery.
+  - **Ship order to shipping company process:** This process is about sent product to shipping company.
+
+#### Website pool
+
+![website pool](img/website.png)
+
+- **Product management:** this task is about when admin manage about product such as adding new products, updating product information, or remove product. website will handle these things.
+- **Take Order:** this represents the point at which customer order details are sent for processing.
+- **Order status:** to show on website about order status that the customer will check such as pending payment, processing, completed, or cancelled.
+
+  ![order status](img/orderlist.png)
+  
+ - **Generate Packing Slip:** Website will generate packing slip for shipping.
+
+   ![packing slip](img/packingslip.png)
+
+- **Invoice gataway:** this task for customer who need a invoice.
+- **Generate Invoice:** Website will generate invoice for customer.
+
+  ![invoice one](img/invoice.png)
+
+- **End event
+
