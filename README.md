@@ -96,8 +96,8 @@ Represents the group of customers interacting with the platform.
 
   - **Fill the shipping detail:** The customer fill their shipping detail.
 
-      <img src="img/shippingdetail.png" alt="Shipping Detail" width="350" height="235">
+      <img src="img/checkout.png" alt="Shipping Detail" width="871.5" height="431.5">
   
   - **Identify payment method:** customer choose the payment method. In my wetsite have 2 ways are Cash on delivery and Bank transfer.
 
-      <img src="img/identify.png" alt="Payment Med" width="350" height="190">
+      <img src="img/identify.png" alt="Payment Med" width="854.5" height="295.5">
