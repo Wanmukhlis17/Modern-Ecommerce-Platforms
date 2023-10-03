@@ -120,28 +120,28 @@ Represents the group of customers interacting with the platform.
 
   ![add product](img/addproduct.png)
 
-  - **Publish Product:** This task involves making the approved product visible to customers on the website. It ensures that the product is included in relevant search results and categories.
-  - **Update Product Information:** This task allows admins to modify existing product details, such as descriptions, prices, or images. It's used for maintaining accurate product information.
-  - **Remove Product:** When a product is discontinued or permanently out of stock, this task is used to remove the product from the website. It ensures customers can no longer purchase the item.
+- **Publish Product:** This task involves making the approved product visible to customers on the website. It ensures that the product is included in relevant search results and categories.
+- **Update Product Information:** This task allows admins to modify existing product details, such as descriptions, prices, or images. It's used for maintaining accurate product information.
+- **Remove Product:** When a product is discontinued or permanently out of stock, this task is used to remove the product from the website. It ensures customers can no longer purchase the item.
 
     ![product management](img/product.png)
 
-  - **Inventory Management:** This task involves monitoring and managing product inventory levels. Admins may use this task to adjust stock levels, track product availability, and reorder items when necessary.
+- **Inventory Management:** This task involves monitoring and managing product inventory levels. Admins may use this task to adjust stock levels, track product availability, and reorder items when necessary.
    
     ![inventory management](img/inventory.png)
 
-  - **Check order:** Admin will check the order list to see if there are any new orders or not. If there is a new order, the admin will go to the next task.
+- **Check order:** Admin will check the order list to see if there are any new orders or not. If there is a new order, the admin will go to the next task.
 
     ![order admin](img/neworder.png)
 
-  - **Check slip and confirm order process:** This process admin will check the slip of payment and confirm order.
+- **Check slip and confirm order process:** This process admin will check the slip of payment and confirm order.
 
     ![confirm order](img/confirmorder.png)
 
-  - **Correct gataway:** when admin check correctness about payment. If correct, It will go to Check Stock process. If not correct, It will cancel the order.
-  - **Check Stock process:** admin will check stock. If have product enough, It will go to next process (Prepare order for shipping process). If out of stock, the order will cancel.
-  - **Prepare order for shipping process:** this task is to prepare product for shipping or pack items properly for delivery.
-  - **Ship order to shipping company process:** This process is about sent product to shipping company.
+- **Correct gataway:** when admin check correctness about payment. If correct, It will go to Check Stock process. If not correct, It will cancel the order.
+- **Check Stock process:** admin will check stock. If have product enough, It will go to next process (Prepare order for shipping process). If out of stock, the order will cancel.
+- **Prepare order for shipping process:** this task is to prepare product for shipping or pack items properly for delivery.
+- **Ship order to shipping company process:** This process is about sent product to shipping company.
 
 #### Website pool
 
@@ -153,7 +153,7 @@ Represents the group of customers interacting with the platform.
 
   ![order status](img/orderlist.png)
   
- - **Generate Packing Slip:** Website will generate packing slip for shipping.
+- **Generate Packing Slip:** Website will generate packing slip for shipping.
 
    ![packing slip](img/packingslip.png)
 
@@ -163,4 +163,45 @@ Represents the group of customers interacting with the platform.
   ![invoice one](img/invoice.png)
 
 - **End event
+
+#### Banking system pool
+
+![banking pool](img/banking.png)
+
+- **Payment Authorization Received:** Start event.
+
+- **Payment Authorization:** The initial step where the bank verifies the customer's identity and ensures they have sufficient funds for the transfer.
+
+- **Transaction Processing:** Once authorized, the bank processes the transfer, moving the funds from the sender's account to the recipient's account.
+
+- **Successful gataway:** If everything success, In website will show complete status. If not success, payment will failed.
+
+- **End event
+
+
+#### Shipping company pool
+
+![shipping pool](img/shipping.png)
+
+- **Receive Order for Shipment:** Start event.
+
+- **Package Label Generation:** Creating shipping labels with package details.
+
+- **Package Handover:** Sent product to customer by delivery man.
+
+- **Order Tracking:** Real-time monitoring of package status.
+
+- **Delivery Confirmation:** Confirming successful package delivery.
+
+- **End event
+
+## Conclusion
+
+The "Kusmi Tea" project involves developing an e-commerce website using WordPress and WooCommerce, centered on selling high-quality tea leaves in pouches. Its primary aim is to establish a user-friendly online tea business, utilizing BPMN to structure processes such as inventory management, product delivery, customer service, and data analysis. The ultimate goal is to deliver an exceptional shopping experience and enhance profitability for "Kusmi Tea."
+
+
+## Author
+Wanmukhlis Waemamu </br>
+631431011 Fatoni University
+
 
