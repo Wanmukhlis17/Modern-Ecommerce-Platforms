@@ -36,7 +36,7 @@ My project builds upon an existing theme as the foundation for Kusmi Tea's E-Com
 
 **1. Customization and Branding**: I customized the theme's appearance to align with Kusmi Tea identity by using the Element tool, ensuring a cohesive and visually appealing online presence.
 
-**2. Plugin Integration**: I integrated key plugins like WooCommerce, PDF Invoices & Packing Slips, and Opn Payments to extend the theme's functionality.
+**2. Plugin Integration**: I integrated key plugins like WooCommerce, PDF Invoices & Packing Slips, and Chaty to extend the theme's functionality.
 
 **3. Content Management**: My project leverages the strong content management capabilities of WordPress and WooCommerce to efficiently organize and maintain our tea leaves. Here are some key points of content management within our Kusmi Tea ecommerce website:
 - Product Listings: Each type of tea in my inventory is treated as a content item within WordPress. This approach enables me to create comprehensive listings for each tea, encompassing details such as tea names, origins, flavor profiles, descriptions, images of the packaging, prices, and more.
@@ -67,5 +67,37 @@ My project builds upon an existing theme as the foundation for Kusmi Tea's E-Com
 
 ### BPMN Diagram
 
-![BPMN page](img/BPMN.png)
+![BPMN page](img/bmpn.png)
 
+
+#### All Pools in BPMN
+- Customer
+- Admin
+- Website
+- Banking system
+- Shipping company
+
+#### Customer pool
+Represents the group of customers interacting with the platform.
+
+![pool customer](img/customer.png)
+
+- **Start Event (Green Circle):** Marks the beginning of the customer's journey on the platform.
+
+- **Select Products:** The customer selects the desired products from the available options.
+
+![select item](img/select.png)
+
+- **Add item to cart:** after select product process, customer will check in the cart. If the customer is satisfied with the selected product. they will go to checkout process. If not they will go back and select more item.
+
+![cart one](img/additem.png)
+      
+- **Checkout Process:** The process to Checkout the product. 
+
+  - **Fill the shipping detail:** The customer fill their shipping detail.
+
+      <img src="img/shippingdetail.png" alt="Shipping Detail" width="350" height="235">
+  
+  - **Identify payment method:** customer choose the payment method. In my wetsite have 2 ways are Cash on delivery and Bank transfer.
+
+      <img src="img/identify.png" alt="Payment Med" width="350" height="190">
