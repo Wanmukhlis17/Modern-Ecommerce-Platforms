@@ -110,7 +110,7 @@ Represents the group of customers interacting with the platform.
 
    - **Recieve the  product process:** Recieve the product from shipping company.
 
-  - **End Event
+  - **End Event**
 
 #### Admin pool
 
@@ -162,7 +162,7 @@ Represents the group of customers interacting with the platform.
 
   ![invoice one](img/invoice.png)
 
-- **End event
+- **End event**
 
 #### Banking system pool
 
@@ -176,7 +176,7 @@ Represents the group of customers interacting with the platform.
 
 - **Successful gataway:** If everything success, In website will show complete status. If not success, payment will failed.
 
-- **End event
+- **End event**
 
 
 #### Shipping company pool
@@ -193,7 +193,7 @@ Represents the group of customers interacting with the platform.
 
 - **Delivery Confirmation:** Confirming successful package delivery.
 
-- **End event
+- **End event**
 
 ## Conclusion
 
