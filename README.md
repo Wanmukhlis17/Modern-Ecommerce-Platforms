@@ -13,17 +13,17 @@ At "Kusmi Tea," we are not just known for our quality and diverse tea flavors, b
 Therefore, our website is not just a place to buy tea; it is also an efficient tool that supports and enhances the efficiency and safety of our tea leaf sales business at every step of the process.
 
 ## *Software and Tools Used*
-- **Laragon:** [Laragon](https://laragon.org/why-laragon/) is utilized as our local development environment, providing a convenient platform for building and testing the Kusmi Tea E-Commerce Website before deployment.
+- **[Laragon](https://laragon.org/why-laragon/)** is utilized as our local development environment, providing a convenient platform for building and testing the Kusmi Tea E-Commerce Website before deployment.
 
-- **WordPress:** [WordPress](https://th.wordpress.org/) serves as the primary content management system (CMS) for our website, offering a flexible and user-friendly environment for managing web content.
+- **[WordPress](https://th.wordpress.org/)** serves as the primary content management system (CMS) for our website, offering a flexible and user-friendly environment for managing web content.
 
-- **WooCommerce:** [WooCommerce](https://woocommerce.com/) is integrated seamlessly with WordPress, empowering our website with e-commerce capabilities, including product management, shopping cart functionality, and secure payment processing.
+- **[WooCommerce](https://woocommerce.com/)** is integrated seamlessly with WordPress, empowering our website with e-commerce capabilities, including product management, shopping cart functionality, and secure payment processing.
 
-- **Elementor:** [Elementor](https://elementor.com/) Elementor is a versatile page builder plugin employed to streamline the design process. It allows for easy customization of layouts and visual elements, enhancing the website's aesthetics and functionality.
+- **[Elementor](https://elementor.com/)** Elementor is a versatile page builder plugin employed to streamline the design process. It allows for easy customization of layouts and visual elements, enhancing the website's aesthetics and functionality.
 
-- **PDF Invoices & Packing Slips for WooCommerce:** [PDF Invoices & Packing Slips for WooCommerce](https://wordpress.org/plugins/woocommerce-pdf-invoices-packing-slips/) Create, print & email PDF invoices & packing slips for WooCommerce orders.
+- **[PDF Invoices & Packing Slips for WooCommerce](https://wordpress.org/plugins/woocommerce-pdf-invoices-packing-slips/)** Create, print & email PDF invoices & packing slips for WooCommerce orders.
 
-- **Chaty:** [Chaty](https://wordpress.org/plugins/chaty/") is a Floating Chat Widget plugin that user can click on link to get more contact with the website
+- **[Chaty](https://wordpress.org/plugins/chaty/")** is a Floating Chat Widget plugin that user can click on link to get more contact with the website
 
 ## *Method*
 I developed Kusmi Tea's E-Commerce Website using the **Agile method**, a flexible approach perfectly suited for the ever-evolving world of online tea sales. </br>
