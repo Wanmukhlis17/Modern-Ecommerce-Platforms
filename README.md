@@ -106,7 +106,7 @@ Represents the group of customers interacting with the platform.
 
       <img src="img/payment.png" alt="Payment Med" width="594" height="170.8">
 
-  - **Review order process:** In this process, customer can chect that the order is success or not. If not success, the order will cancel. If order is success, customer just wait for order to shipping.
+  - **Review order process:** In this process, customer can check that the order is success or not. If not success, the order will cancel. If order is success, customer just wait for order to shipping.
 
    - **Recieve the  product process:** Recieve the product from shipping company.
 
